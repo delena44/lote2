@@ -1,0 +1,142 @@
+.postcard{
+    background-color: #DCDCDC;
+    width: fit-content;
+    margin: 12% auto;
+    padding: 7%;
+    box-shadow: 0 0 20px #48484a;
+    font-family: CENTURY GOTHIC;
+}
+.card{
+    width: 200px;
+    height: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    text-align: center;
+}
+.container{
+    columns: 3;
+}
+.name{
+    font-family: Verdana, sans-serif;
+}
+.contact{
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+input{
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+}
+input:focus {
+    width: 100%;
+    padding: 8px 16px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+}
+input:focus {
+    background-color: #c8c8c8;
+}
+button{
+    width: 200px;
+    color: white;
+    height: 50px;
+    background: rgb(140, 137, 137);
+    background: linear-gradient(0deg, rgb(94, 95, 122) 0%, rgb(103, 105, 124) 100%);
+    border: none;
+}
+button:hover {
+    background: rgb(124, 124, 134);
+    background: linear-gradient(0deg, rgb(84, 84, 100) 0%, rgb(140, 140, 143) 100%);
+}
+.btn-1 {
+    background: rgb(140, 137, 137);
+    background: linear-gradient(0deg, rgb(94, 95, 122) 0%, rgb(103, 105, 124) 100%);
+    border: none;
+}
+.btn-1:hover {
+    background: rgb(124, 124, 134);
+    background: linear-gradient(0deg, rgb(84, 84, 100) 0%, rgb(140, 140, 143) 100%);
+}
+body{
+    background: url("https://img.freepik.com/free-vector/gray-polygonal-mosaic-paper-background-vector-illustration_43969-956.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+}
+
+.btnback {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    padding: 35px 50px;
+    color: #000000;
+    border: 1px solid #000000;
+    background-color: #8c8989;
+    font-size: 20px;
+    font-weight: 1000;
+    white-space: nowrap;
+    transition: .3s linear;
+}
+.btnback:before, .btnback:after, .link-content:before, .link-content:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    transition: .3s linear;
+}
+.btnback:before {
+    left: -1px;
+    top: -1px;
+    border-left: 1px solid #b0a59b;
+    border-top: 1px solid #b0a59b;
+}
+.btnback:after {
+    bottom: -1px;
+    right: -1px;
+    border-bottom: 1px solid #b0a59b;
+    border-right: 1px solid #b0a59b;
+}
+.link-content:after {
+    right: -1px;
+    top: -1px;
+    border-right: 1px solid #b0a59b;
+    border-top: 1px solid #b0a59b;
+}
+.link-content:before {
+    left: -1px;
+    bottom: -1px;
+    border-bottom: 1px solid #b0a59b;
+    border-left: 1px solid #b0a59b;
+}
+.btnback:hover {
+    color: #b0a59b;
+    border-color: #b0a59b;
+}
+table {
+    border: 4px double #333; /* Рамка вокруг таблицы */
+    border-collapse: separate; /* Способ отображения границы */
+    width: 100%; /* Ширина таблицы */
+    border-spacing: 7px 11px; /* Расстояние между ячейками */
+}
